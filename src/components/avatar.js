@@ -1,13 +1,9 @@
 import React from 'react'
 
-export const Avatar = props => {
+export const Avatar = ({pippo}) => {
     return(
         <div className='User'>
-            <img className='Avatar'
-            src={props.user.avatarUrl}
-            alt={props.user.name}
-            />
-            <div className='User-name'>{props.user.name}</div>
+            <img src={pippo.user.avatarUrl}/>
         </div>
     )
 }

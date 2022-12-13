@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to right top, #ffffff, #dcdbf9, #b3baf4, #7e9cf0, #1281eb);
+    margin-bottom: 100px;
+    height: fit-content;
+    
+}
+.App{
+    text-align: left !important;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+
+}
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+.Tweet-card{
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.imgcountainer img{
+
+padding: 0px;
+margin: 0px;
+max-width: 500px;
+
+
+}
+.userarea{
+    position: relative;
+    gap: 5px;
+    display: flex;
+}
+.userarea img{
+    border-radius: 100%;
+    width: 80px;
+    display: inline-flex;
+}
+.userarea h3{
+display: inline-flex;
+margin-left: 5px;
+font-weight: 700;
+
+}
+.userarea h4{
+    display: block;
+    margin-left: 5px;
+    margin-top: -25px;
+    color: #e1e1e1;
+    font-size: 16px;
+    font-weight: 400;
+}
+.content{
+    padding: 8px;
+    margin-top: -5px;
+
+}
+.content .date{
+    color: #e1e1e1;
+    font-size: 14px;
+}

@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+import { getTweets } from './api/tweetApi';
 import './App.css';
+import { Tweet } from './components/tweet';
+import { TweetList } from './components/tweetList';
 
 function App() {
+
+   const list = getTweets();
+
   return (
     <div className='App'>
-      <div className='TweetList'> Ciclo di ogni singolo tweet</div>
-
+      <TweetList/>
     </div>
   );
 }
