@@ -8,6 +8,7 @@ export const Content = ({pippo}) => {
         <p className='date'>
            {pippo.tweetDate}
         </p>
+        
     </div>
     )
 }
